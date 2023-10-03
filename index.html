@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <title>To do List</title>
+</head>
+<body>
+  <div class="back_black hide">
+    <div class="modal">
+      <span>Впишите изменения</span>
+      <input class="inp_modal" type="text">
+      <div class="btn_box">
+        <button class="btn_true">Save</button>
+        <button class="btn_false">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <div class="container">
+      <div class="list">
+        <div class="item">
+          <div class="top_div">
+            <span class="title_span">Hello World</span>
+            <button class="button_remove">X</button>
+          </div>
+          <span class="time">11:22</span>
+        </div>
+
+      </div>
+      <div class="title">
+        <form name="notes">
+          <h1>Todo List</h1>
+          <input class="text_in" type="textarea" name="text" placeholder="Введите текст...">
+          <button type="submit">Сохранить</button>
+        </form>
+
+      </div>
+    </div>
+  </main>
+
+
+
+  <script src="./script/script.js"></script>
+</body>
+</html>
